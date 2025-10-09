@@ -46,6 +46,8 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+    width: 70%;
+    margin: auto;
   }
   .gallery img:nth-child(1) {
     grid-column: 1;
