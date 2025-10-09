@@ -13,7 +13,7 @@ img {
 }
 /*Sidens farve*/
 body {
-  background-image: url("forside/baggrund.webp");
+  background-image: url("forside/baggrund_1.webp");
   background-size: cover; /* fylder hele elementet */
   background-position: center; /* centrerer billedet */
   background-repeat: no-repeat; /* gentager ikke billedet */
