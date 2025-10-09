@@ -118,6 +118,10 @@
 @media screen and (max-width: 1200px) {
   p {
     font-size: 15px;
+  }
+
+  .forside_tekst {
+    font-size: 15px;
     width: 100%;
     display: block;
     margin: auto;
