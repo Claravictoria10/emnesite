@@ -254,10 +254,9 @@ nav {
 }
 /*Teksten som er på forsiden, omrking hjemmesidens formål*/
 .forside_tekst {
-  width: 70%;
+  width: 50%;
   display: block;
   margin: auto;
-  text-align: center;
 }
 /*Kort billedet som er placeret på de enkle restaurant sider*/
 .kortbillede {
