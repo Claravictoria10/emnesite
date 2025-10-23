@@ -245,13 +245,6 @@ nav {
   display: block; /* gør billedet til blok, så margin virker */
   margin: 0 auto; /* centrerer billedet */
 }
-/*Maps billedet på forsiden*/
-.billede_forside_2 {
-  width: 80%;
-  display: block;
-  margin: auto;
-  max-width: 950px;
-}
 /*Teksten som er på forsiden, omrking hjemmesidens formål*/
 .forside_tekst {
   width: 50%;
@@ -270,4 +263,42 @@ nav {
 /*Billeder som ses på restaurant siderne når man går ind på de enkle restauranter*/
 .restaurant_billede_2side {
   max-width: 675px;
+}
+/*Maps billedet på forsiden*/
+.map-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.map-container img {
+  width: 80%;
+  max-width: 950px;
+}
+/* Pin på map billedet */
+.pin {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  cursor: pointer;
+}
+.pin img {
+  width: 85%;
+}
+/* Teksten når musen er på en pin */
+.tooltip {
+  position: absolute;
+  background: #fffaed;
+  color: #934133;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  white-space: nowrap;
+  transform: translate(-50%, -150%);
+  opacity: 0;
+  pointer-events: none;
+}
+/* Viser kun teksten, når man holder over den rigtige pin */
+.pin:hover .tooltip {
+  opacity: 1;
 }

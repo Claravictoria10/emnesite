@@ -135,3 +135,15 @@
     font-size: 23px;
   }
 }
+/*Pin størrelse på telefon*/
+@media screen and (max-width: 1100px) {
+  .pin img {
+    width: 40%;
+  }
+}
+/*Pin størrelse på telefon*/
+@media screen and (max-width: 800px) {
+  .pin img {
+    width: 25%;
+  }
+}
