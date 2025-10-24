@@ -218,7 +218,7 @@ nav {
   grid-row: 1;
 }
 .footer-email {
-  grid-column: 3; /* 🔹 Placer i kolonne nr. 4 */
+  grid-column: 3;
   display: flex;
   flex-direction: column;
   gap: 10px;

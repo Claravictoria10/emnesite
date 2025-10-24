@@ -135,7 +135,7 @@
     font-size: 23px;
   }
 }
-/*Pin størrelse på telefon*/
+/*Pin størrelse på ipad*/
 @media screen and (max-width: 1100px) {
   .pin img {
     width: 40%;
